@@ -64,7 +64,7 @@ namespace Telegbottest
                 #region игра в крестики нолики
                 if (x0)
                 {
-                    if (messagetext.ToLower() == "/нолик")
+                    if (messagetext.ToLower() == "нолик")
                     {
                         
                         bot.SendTextMessageAsync(chatId: chatid, text: "Хорошо, тогда я \"x\"");
